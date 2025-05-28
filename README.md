@@ -8,13 +8,13 @@
 
 ## 🖼️ Demo
 
-<p float="left">
-  <img src="screenshots/lung_ct_original.png" width="45%" title="Uploaded CT Scan"/>
-  <img src="screenshots/lung_ct_gradcam.png" width="45%" title="Grad-CAM Heatmap"/>
+<p align="center">
+  <img src="Screenshot 2025-05-28 114215.png" width="45%" title="Original and Heatmap CT Scan"/>
+ 
 </p>
 
 <p align="center">
-  <img src="screenshots/predicted_class_1.png" width="80%" title="Predicted Class and Suggestions"/>
+  <img src="Screenshot 2025-05-28 114231.png" width="80%" title="Prediction and Suggestions"/>
 </p>
 
 ---
