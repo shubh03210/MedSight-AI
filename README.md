@@ -32,8 +32,8 @@
 
 ## 📂 Input Format
 
-- Upload `.jpg`, `.jpeg`, or `.png` files
-- Best results with `.jpg` lung CT scan images
+- Upload .jpg, .jpeg, or .png files
+- Best results with .jpg lung CT scan images
 
 ---
 
@@ -61,99 +61,77 @@
 
 ---
 
-## 🧪 Preprocessing Steps
+## ⚙️ How to Use
 
-### Before Model Inference:
-```python
-transforms.Compose([
-    transforms.Resize((224, 224)),
-    transforms.ToTensor(),
-    transforms.Normalize(mean, std)
-])
-Before Grad-CAM:
-Grayscale → 3-Channel RGB → Resize → Normalize → Tensor
+### Clone the repository:
 
-⚙️ How to Use
-Clone the repository:
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/shubh03210/MedSight-AI.git
 cd MedSight-AI
-Install dependencies:
-
-bash
-Copy
-Edit
+```
+---
+### Install dependencies:
+```bash
 pip install -r requirements.txt
-Launch the web app:
-
-bash
-Copy
-Edit
+```
+---
+### Launch the Streamlit app:
+```bash
 streamlit run app.py
-Upload a .jpg CT scan and view:
+```
+---
+### Upload a .jpg CT scan and view:
 
-Grad-CAM heatmap
+✅ Grad-CAM heatmap
 
-Malignancy score (1–5)
+✅ Malignancy score (1–5)
 
-Health recommendations
-
-📦 Dependencies
-txt
-Copy
-Edit
-torch==2.5.1+cu121
-torchvision==0.20.1+cu121
-torchaudio==2.5.1+cu121
-timm==1.0.15
-grad-cam==1.5.5
-numpy==1.26.4
-pillow==11.2.1
-matplotlib==3.10.1
-opencv-python==4.11.0.86
-💻 Hardware Requirements
-NVIDIA GPU (CUDA-enabled)
-
-Minimum 8GB GPU memory
-
-❌ CPU-only environments not supported
-
-📄 License
-Currently no license. Please contact the repository owner before reuse.
-
-🙏 Acknowledgements
-MedViT
-
-LIDC-IDRI Dataset
-
-Open-source community for libraries and tools
-
-⚠️ Disclaimer
-This tool is intended for research and educational purposes only. It is not a replacement for professional medical advice. Always consult with a certified radiologist or physician for diagnosis and treatment.
-
-markdown
-Copy
-Edit
+✅ Health recommendations
 
 ---
+## 📦 Dependencies
+```bash
+torch==2.5.1+cu121
 
-### ✅ Next Steps for You:
+torchvision==0.20.1+cu121
 
-1. **Create a folder in your repo named `screenshots/`**
-2. Add:
-   - `lung_ct_original.png` (first CT image)
-   - `lung_ct_gradcam.png` (Grad-CAM heatmap)
-   - `predicted_class_1.png` (output card)
-3. Add a `requirements.txt` file with the given dependencies.
+torchaudio==2.5.1+cu121
 
-Let me know if you’d like help generating the `requirements.txt`, `app.py`, or deployment instructions!
+timm==1.0.15
 
+grad-cam==1.5.5
 
+numpy==1.26.4
 
+pillow==11.2.1
 
+matplotlib==3.10.1
 
+opencv-python==4.11.0.86
+```
+---
+## 💻 Hardware Requirements
+✅ NVIDIA GPU (CUDA-enabled)
 
+✅ Minimum 8GB GPU memory
 
+❌ Not supported on CPU-only environments
+
+---
+## 📄 License
+Currently, there is no license applied.
+Please contact the repository owner before reuse.
+
+---
+## 🙏 Acknowledgements
+Pretrained Model: MedViT
+
+Dataset: LIDC-IDRI (Lung Cancer)
+
+Thanks to the open-source community for essential libraries and tools
+
+---
+## ⚠️ Disclaimer
+This tool is intended for research and educational purposes only.
+It is not a substitute for professional medical advice or diagnosis.
+Always consult a certified radiologist or physician for medical concerns.
