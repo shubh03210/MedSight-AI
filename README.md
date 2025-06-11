@@ -6,11 +6,18 @@
 
 ---
 
+## 📦 Download Pretrained Model
+
+To run predictions, download the pretrained model from the link below and place it in the project directory (as specified in the code):
+
+👉 **[Download MedSight AI Model](https://drive.google.com/file/d/1aMIaqdRjTF0iCe_Hpq3gh1KPoldluu32/view?usp=sharing)**
+
+---
+
 ## 🖼️ Demo
 
 <p align="center">
   <img src="Screenshot 2025-05-28 114215.png" width="45%" title="Original and Heatmap CT Scan"/>
- 
 </p>
 
 <p align="center">
@@ -63,12 +70,9 @@
 
 ## ⚙️ How to Use
 
-### Clone the repository:
+### Download the model:
+**[Download MedSight AI Model](https://drive.google.com/file/d/1aMIaqdRjTF0iCe_Hpq3gh1KPoldluu32/view?usp=sharing)**
 
-```bash
-git clone https://github.com/shubh03210/MedSight-AI.git
-cd MedSight-AI
-```
 ---
 ### Install dependencies:
 ```bash
