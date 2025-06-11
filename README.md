@@ -70,8 +70,33 @@ To run predictions, download the pretrained model from the link below and place 
 
 ## ⚙️ How to Use
 
-### Download the model:
-**[Download MedSight AI Model](https://drive.google.com/file/d/1aMIaqdRjTF0iCe_Hpq3gh1KPoldluu32/view?usp=sharing)**
+### 1️⃣ Recommended: Download Full Project Folder
+👉 **[Download MedSight AI Project Folder (includes code + trained model)](https://drive.google.com/file/d/1aMIaqdRjTF0iCe_Hpq3gh1KPoldluu32/view?usp=sharing)**  
+Unzip it and open in your editor (e.g., VS Code).
+
+---
+
+### 2️⃣ Optional: Clone the Repository
+
+If you prefer GitHub, clone the repository:
+
+```bash
+git clone https://github.com/shubh03210/MedSight-AI.git
+cd MedSight-AI
+
+```
+⚠️ Important: This repository does not include the pretrained models due to file size limits.
+
+You must manually download:
+
+🔗 MedSight-AI trained model:
+**[Download MedSight Model+weights](https://drive.google.com/file/d/1aMIaqdRjTF0iCe_Hpq3gh1KPoldluu32/view?usp=sharing)**
+
+🔗 MedViT pretrained weights:
+**[Download MedVit pretrained Weights](https://drive.google.com/file/d/1rHO73fr3tY4NG3HQdkXhK564SZFpvQM-/view?usp=sharing)**
+
+
+📁 After downloading, place the files in the correct directories as mentioned in the code.
 
 ---
 ### Install dependencies:
